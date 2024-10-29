@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CRUD de Usuários</h1>
+    </header>
+    <main id="main-content">
+        <h2>Cadastrar Usuário</h2>
+        <form id="user-form" onsubmit="cadastrarUsuario(event)">
+            <label for="name-input">Nome:</label>
+            <input type="text" id="name-input" required><br>
+            <label for="email-input">Email:</label>
+            <input type="email" id="email-input" required><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
